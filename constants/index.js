@@ -2,69 +2,52 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Estudiantes',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Trabajadores',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Creadores de contenido',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Gamers',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Inicia sesión con tu wallet favorita',
+  'Agrega la dirección de tu amigo/validador y firma ',
+  'Empieza a agregar tus tareas y no olvides cumplirlas ',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'BLOCKCHAIN Y CONTRATOS INTELIGENTES ',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Usados para garantizar el cumplimiento de las tareas y la realización ',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'INTELIGENCIA ARTIFIFICIAL MOTIVACIONAL ',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Enfocada para el tipo de proyecto/tareas en los que estas enfocado, dándote feedback de tu desempeño semanal ',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Implementación en saga phone ',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'Compatibilidad multi chain eth / matic y más ',
   },
 ];
 
@@ -73,71 +56,24 @@ export const socials = [
     name: 'twitter',
     url: '/twitter.svg',
   },
+];
+
+export const members = [
+  {
+    name: 'twitter',
+    url: '/twitter.svg',
+  },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
   },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
 ];
+
+
 
 export const technologies = [
   {
-    name: "HTML 5",
-    icon: "../tech/html.png",
-  },
-  {
-    name: "CSS 3",
-    icon: "../tech/css.png",
-  },
-  {
-    name: "JavaScript",
-    icon: "../tech/javascript.png",
-  },
-  {
-    name: "TypeScript",
-    icon: "../tech/typescript.png",
-  },
-  {
-    name: "React JS",
-    icon: "../tech/reactjs.png",
-  },
-  {
-    name: "Redux Toolkit",
-    icon: "../tech/redux.png",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: "../tech/tailwind.png",
-  },
-  {
-    name: "Node JS",
-    icon: "../tech/nodejs.png",
-  },
-  {
-    name: "MongoDB",
-    icon: "../tech/mongodb.png",
-  },
-  {
-    name: "Three JS",
-    icon: "../tech/threejs.svg",
-  },
-  {
-    name: "git",
-    icon: "../tech/git.png",
-  },
-  {
-    name: "figma",
-    icon: "../tech/figma.png",
-  },
-  {
-    name: "docker",
-    icon: "../tech/docker.png",
+    name: "Proactive Week",
+    icon: "../whats-new.png",
   },
 ];

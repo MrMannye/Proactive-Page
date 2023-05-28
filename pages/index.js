@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World, Tech } from '../sections';
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, Tech } from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
@@ -15,7 +15,6 @@ const Home = () => (
       <div className="gradient-04 z-0" />
       <WhatsNew />
     </div>
-    <World />
     <div className="relative">
       <Insights />
       <div className="gradient-04 z-0" />
