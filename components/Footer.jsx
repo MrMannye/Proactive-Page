@@ -47,8 +47,8 @@ const Footer = () => (
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href="https://twitter.com/proactiveweek">
-                <img key={social.name}
+              <a key={social.name} href="https://twitter.com/proactiveweek">
+                <img
                 src={social.url}
                 alt={social.name}
                 className="w-[24px] h-[24px] object-contain cursor-pointer" />
