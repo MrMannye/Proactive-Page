@@ -24,11 +24,13 @@ const Navbar = () => (
       <h2 className="font-extrabold text-[20px] leading-[30.24px] text-white">
         PROACTIVE WEEK
       </h2>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
+      <a href='https://hackaton-2-0.vercel.app'>
+        <img
+          src="/menu.svg"
+          alt="menu"
+          className="w-[24px] h-[24px] object-contain"
+        />
+      </a>
     </div>
   </motion.nav>
 );
