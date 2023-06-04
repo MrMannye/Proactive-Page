@@ -27,11 +27,13 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       <div
         className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white"
       >
-        <img
-          src="/arrow.svg"
-          alt="arrow"
-          className="w-[40%] h-[40%] object-contain"
-        />
+        <a href='https://medium.com/coinmonks/solana-phone-saga-the-future-of-web3-solana-blockchain-and-saga-overview-7d3c0818315d' className="w-[40%] h-[40%] object-contain">
+          <img
+            src="/arrow.svg"
+            alt="arrow"
+            className="w-[40%] h-[40%] object-contain"
+          />
+        </a>
       </div>
     </div>
   </motion.div>
