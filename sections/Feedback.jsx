@@ -7,19 +7,19 @@ import { members } from '../constants/index';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 const Feedback = () => (
-  <section className={`${styles.paddings}`}>
+  <section className={`${styles.paddings} w-full`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
+      className={`${styles.innerWidth} mx-auto w-full flex lg:flex-row flex-col gap-6`}
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-auto gap-4">
+      <div className="flex w-full items-center justify-center">
         
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
-          className="flex-[0.5] lg:max-w-[370px] max-h-[300px] lg:max-h-[350px] sm:max-h-[300px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+          className="w-2/3 max-h-[300px] lg:max-h-[350px] sm:max-h-[300px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
         >
           <div className="feedback-gradient" />
           <div>
