@@ -32,7 +32,7 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white">
             LAUNCH WEB APP
           </span>
-        </button>
+        </a>
       </div>
 
       <div className="flex flex-col">
