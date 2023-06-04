@@ -15,16 +15,11 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          Proactive
-        </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row justify-center items-center"
         >
-          <h1 className={styles.heroHeading}>We</h1>
-          <h1 className={styles.heroDText}>e</h1>
-          <h1 className={styles.heroHeading}>k</h1>
+          <h3 className={styles.heroHeading}>"You don't have to be great to start, but you must start to be great."</h3>
         </motion.div>
       </div>
 
@@ -40,7 +35,7 @@ const Hero = () => (
           className="w-full sm:h-[400px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
-        <a href="#explore">
+        <a href="#tech">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
               src="/stamp.png"

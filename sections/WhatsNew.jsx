@@ -19,9 +19,9 @@ const WhatsNew = () => (
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
-      >
-        <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+      >''
+        <TypingText title="| ¿Qué lo hace mejor?" />
+        <TitleText title={<>Implementamos tecnologías innovadoras</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />

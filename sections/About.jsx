@@ -16,25 +16,13 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| Acerca de Proactive Week" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        <span className="font-extrabold text-white">Aplicacion</span> web móvil que te ayuda a <span className="font-extrabold text-white">no procastinar</span> por medio de penalizaciones si no cumples con tus <span className="font-extrabold text-white">tareas semanales</span>. Cuando empieza una nueva semana, se revisa si has cumplido con todas tus actividades, en caso de que no, se realiza una <span className="font-extrabold text-white">Transferencia</span> de ($SOL) a un amigo.{' '}
       </motion.p>
 
       <motion.img
