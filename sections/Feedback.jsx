@@ -13,13 +13,12 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6 flex justify-center`}
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-rows-auto gap-4">
-        
+ 
         <motion.div
           variants={fadeIn("right", "tween", 0.2, 1)}
-          className="flex-[0.5] lg:max-w-[370px] max-h-[300px] lg:max-h-[350px] sm:max-h-[300px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+          className="flex-[0.5] lg:max-w-[700px] max-h-[300px] lg:max-h-[350px] sm:max-h-[300px] flex justify-center flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
         >
           <div className="feedback-gradient" />
           <div>
@@ -52,7 +51,6 @@ const Feedback = () => (
         </motion.div>
 
        
-      </div>
     </motion.div>
   </section>
 );
